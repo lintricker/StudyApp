@@ -10,7 +10,7 @@ export default function AutoComplete() {
   };
 
   return (
-    <Stack spacing={1} sx={{ width: 300 }}>
+    <Stack spacing={1} sx={{ width: 300 }} color="white">
       <Autocomplete
         {...defaultProps}
         id="disable-close-on-select"
